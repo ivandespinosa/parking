@@ -24,5 +24,7 @@ namespace WebApiManagerParking.Controllers
         {
             return await _facadaCell.GetCellsAsync(VehicleId).ConfigureAwait(false);
         }
+
+
     }
 }
